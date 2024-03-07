@@ -17,4 +17,4 @@ Some things it displays: (from top to bottom)
 Install the theme as ~/.config/conky/the-raven-conky-theme
 
 ![](screenshot.png)
-![](screenshot2.png
+![](screenshot2.png)
