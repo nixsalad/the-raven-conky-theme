@@ -1,6 +1,5 @@
 #!/bin/sh
 # script to display day as a dot
-# adapted from user Closebox73
 
 case $(date +%a) in
 	*Mon*) echo "      ";;

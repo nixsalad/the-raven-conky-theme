@@ -1,5 +1,5 @@
 #!/bin/sh
-# script shows weather icon 
+# script to show relavant weather icon 
 # uses Feather icon font <https://github.com/AT-UI/feather-font>
 # adapted from user Closebox73
 

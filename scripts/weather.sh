@@ -2,10 +2,9 @@
 # This script gets weather from openweathermap.com and stores the data locally
 # adapted from Closebox73
 
-# -- change me -- #
+# -- change below -- #
 # get your city id at https://openweathermap.org/find and replace
 city_id=4474388 
-#api_key=18a199e57310502a27b8e9860c817c0e
 api_key=2346fa4d5f6c0ab93c816ece6193746a
 unit=imperial
 lang=en

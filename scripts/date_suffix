@@ -1,6 +1,5 @@
-#!/bin/bash
+#!/bin/sh
 # script to display a day of month suffix 
-# adapted from user Closebox73
 
 case $(date +%d) in
 	01|21|31) echo "st";;

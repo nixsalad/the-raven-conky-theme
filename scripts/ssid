@@ -1,6 +1,5 @@
 #!/bin/sh
 # a simple script to display wifi name
-# adapted from user Closebox73
 
 SSID_NAME=$(/sbin/iwgetid -r)
 [ -n "${SSID_NAME}" ] && echo "${SSID_NAME}"
