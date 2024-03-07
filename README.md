@@ -11,3 +11,6 @@ Some things it displays: (from top to bottom)
 - memory usage and list the memory-heavy processes
 - storage usage and disk i/o speeds
 - music "now playing" with mpd (last.fm api - inspired by https://github.com/floriandejonckheere/conky-mpd)
+
+![screensho1](screenshot.png "screenshot1")
+![screenshot2](screenshot2.png "screenshot2")
