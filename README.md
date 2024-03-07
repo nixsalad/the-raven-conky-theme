@@ -1,7 +1,7 @@
 # the-raven-conky-theme
 a custom conky theme by nixsalad
 
-My first conky theme
+My first *published* conky theme
 
 Some things it displays: (from top to bottom)
 - bitcoin current price (coinbase api, no key required)
