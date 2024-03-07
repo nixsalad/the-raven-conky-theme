@@ -18,3 +18,29 @@ Install the theme as ~/.config/conky/the-raven-conky-theme
 
 ![](screenshot.png)
 ![](screenshot2.png)
+
+1. Install conky (thru the package manager ie. apt-get, xbps, etc)
+```
+# debian
+apt-get install conky
+
+# void
+xbps-install -y conky
+```
+
+2. Launch the conky theme
+```
+conky -c ~/.config/conky/the-raven-conky-theme/the-raven.conf
+```
+
+3. Modify the config to match your system
+Some minor modifications will be necessary to accurately reflect your system
+
+`the-raven.conf`:
+- change the storage device paths (/dev/sda, /mnt/nfs, etc) 
+- change the network device (wlan0, eth0, etc)
+
+`scripts/weather`:
+- change the 'cityid' to match your location using openweather api <>
+- change the units to either "imperial" or "metric" for temperature in fahrenheit/celsius
+
