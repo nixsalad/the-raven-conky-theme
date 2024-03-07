@@ -3,6 +3,9 @@ a custom conky theme by nixsalad
 
 My first *published* conky theme
 
+![](screenshot.png)
+![](screenshot2.png)
+
 Some things it displays: (from top to bottom)
 - bitcoin current price (coinbase api, no key required)
 - wifi ssid, ipv4 address, and network speed
@@ -15,9 +18,6 @@ Some things it displays: (from top to bottom)
 
 # Install
 Install the theme as ~/.config/conky/the-raven-conky-theme
-
-![](screenshot.png)
-![](screenshot2.png)
 
 1. Install conky (thru the package manager ie. apt-get, xbps, etc)
 ```
@@ -33,14 +33,14 @@ xbps-install -y conky
 conky -c ~/.config/conky/the-raven-conky-theme/the-raven.conf
 ```
 
-3. Modify the config to match your system
+3. Modify the config to match your system  
 Some minor modifications will be necessary to accurately reflect your system
 
 `the-raven.conf`:
-- change the storage device paths (/dev/sda, /mnt/nfs, etc) 
-- change the network device (wlan0, eth0, etc)
+- change the storage device paths (`/dev/sda`, `/mnt/nfs`, etc) 
+- change the network device (`wlan0`, `eth0`, etc)
 
 `scripts/weather`:
-- change the 'cityid' to match your location using openweather api <>
-- change the units to either "imperial" or "metric" for temperature in fahrenheit/celsius
+- change the `cityid` to match your location ID using [openweathermap api](https://openweathermap.org/find)
+- change the units to either `imperial` or `metric` for temperature in fahrenheit/celsius
 
